@@ -4,14 +4,14 @@ import seaborn as sns
 from sqlalchemy import create_engine
 
 # Connect to the database and load the data
-db_file = '../employees.db'  # Use this if running from DE/ subfolder
+db_file = '../employees.db'  # if running from DE
 engine = create_engine(f'sqlite:///{db_file}')
 df = pd.read_sql('SELECT * FROM employees', engine)
 
 # Set seaborn style
 sns.set(style='whitegrid')
 
-# Print salary summary statistics
+# to  Print salary summary statistics
 print('Salary Summary Statistics:')
 print(df['salary'].describe())
 print('\nSample Salaries:')
