@@ -89,8 +89,8 @@ DE/
 - Automate the ETL process (e.g., with a scheduler or Airflow)
 - Add more data validation and error logging
 - Build an API to serve employee data
-- Integrate with cloud storage (AWS S3, GCP, etc.)
-- Add more visualizations (e.g., by department, gender, etc.)
+- Integrate with cloud storage (AWS S3 or GCP)
+- Add more visualizations (e.g., by department, gender)
 
 ## License
 This project is for educational purposes.
