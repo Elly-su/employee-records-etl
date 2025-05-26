@@ -93,4 +93,4 @@ DE/
 - Add more visualizations (e.g., by department, gender)
 
 ## License
-This project is for educational purposes.
+I've  provided this project for educational use and experimentation only..
