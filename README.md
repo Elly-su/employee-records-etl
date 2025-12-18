@@ -53,8 +53,8 @@ DE/
    python DE/visualize_employees.py
    ```
    - This will display:
-     - A histogram of salary distribution
-     - A bar chart of number of hires per year
+     - A histogram of salary distribution.
+     - A bar chart of number of hires per year.
 
 ## How to Save All Visualizations as Images
 1. Run the batch visualization script to save charts as PNG files:
